@@ -9,6 +9,7 @@ license = { file = "LICENSE" }
 dynamic = ["version"]
 dependencies = [
     "pybind11",
+    "julia"
 ]
 [project.urls]
 repository = "https://github.com/ketanbj/pypm2c"

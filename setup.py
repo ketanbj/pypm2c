@@ -5,7 +5,7 @@ ext_modules = [
     Extension(
         "pypm2c",
         ["pybind_libpowermodels.cpp"],
-        include_dirs=[pybind11.get_include(), "pm2c/PowerModelsCompiled/include"],
+        include_dirs=[pybind11.get_include(), "pm2c/PowerModelsCompiled/include",  "/projects/tools/x86_64/rhel-8/julia/julia-1.11.2/include/julia"],
         libraries=["powermodelscompiled", "julia"],
         library_dirs=["pm2c/PowerModelsCompiled/lib", "pm2c/PowerModelsCompiled/lib/julia"],
         extra_compile_args=["-std=c++11"],
