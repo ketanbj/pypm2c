@@ -45,7 +45,7 @@ For detailed instructions refer to [pm2c](https://github.com/ketanbj/pm2c/) repo
   python3 -m venv venv
   source venv/bin/activate
   pip install --upgrade pip
-  pip install pybind11
+  pip install pybind11 setuptools
   python setup.py -v build_ext --inplace
 ```
 
