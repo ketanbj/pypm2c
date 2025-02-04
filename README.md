@@ -32,8 +32,9 @@ If you are running on rogues gallery machines, loading the julia module will set
 
 2. Build pm2c to generate libpowermodels:
 
-```cd pypm2c/pm2c
-    make
+```
+cd pypm2c/pm2c
+make
 ```
 
 For detailed instructions refer to [pm2c](https://github.com/ketanbj/pm2c/) repository.
