@@ -1,3 +1,5 @@
 venv
 build
 *.so
+.vscode/
+__pycache__/
